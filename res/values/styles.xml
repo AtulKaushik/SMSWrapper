@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="list_item">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#EE000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="subtitle">
+        <item name="android:textColor">#265EA5</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#FFFFFFFF</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="generalText">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="sengmentedBtn">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#022746</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="loginbtn">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="optionsbtn">
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- below this -->
+    
+    	<style name="Theme" parent="android:Theme">
+		<item name="android:background">@null</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	<style name="text_title">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">20dp</item>
+		<item name="android:textColor">@color/d_gray</item>
+		<item name="android:gravity">center</item>
+    </style>
+    
+	<style name="text_option">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/black</item>
+    </style>
+    
+	<style name="layout_wrap">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="layout_fill">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+    </style>    
+    
+    <style name="h_line">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1.5dip</item>
+		<item name="android:background">@color/l_blue</item>
+    </style>
+    
+        <style name="indicator_style">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">6dip</item>
+		<item name="android:background">@color/l_blue</item>
+		<item name="android:orientation">vertical</item>
+    </style>
+	
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS Wrapper</string>
+    <string name="description"></string>
+    <string name="socialsmsactivity_label">Device Messages</string>
+    <string name="google_address_summary">Email address of your gmail account</string>
+    <string name="google_password_summary">Password of the gmail account</string>
+    <string name="import_range_summary">max no. of mails to be imported at a time</string>
+    <string name="settings">Settings</string>
+    <string name="share_screen_header">Share it with friends</string>
+    <string name="facebook_activity">Share with Facebook friends</string>
+    <string name="facebook">Facebook</string>
+    <string name="tweet">Tweet</string>
+    <string name="save">Save</string>
+    <string name="date_">"Date : "</string>
+    <string name="sender_">"Sender : "</string>
+    <string name="export">Export</string>
+    <string name="import_">Import</string>
+    <string name="phone_inbox_is_empty">Phone Inbox is empty</string>
+    <string name="export_label">Export</string>
+    <string name="mail_inbox_is_empty">No mails to import</string>
+    <string name="import_label">Import</string>
+    <string name="msgs_to_import_label">Select Messages to Import</string>
+    <string name="about">About</string>
+    <string name="msgs_to_export_label">Select Messages to Export</string>
+    <string name="twitter_activity">Tweet it</string>
+    <string name="app_desc">There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.</string>
+    <string name="acc_msg">Do you want to proceed with this account?</string>
+    <string name="username_hint">Username ( full qualified id )</string>
+    <string name="password_hint">Password (to confirm)</string>
+    <string name="wrong_credential_msg">Please check the values you have entered, if you are stuck on this dialog</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="about_author">Atul Kaushik is an Android Engineer. He is an Android enthusiast and an open source fanatic. He works with the Android development community at large to aid in understanding the Android platform and development of good quality Android applications. He likes to work on open source applications during his free time. He is passionate about travelling and swimming. He actively participates in social causes. He is currently working on an open source application which requires generous contributions. You can reach him on kaushik.atul@gmail.com</string>
+    <string name="about_app"> SMS Wrapper is an open source app which intends to make messaging a fun. It has been developed with limited resources so you may get disappointed at times, but as you continue to support this initiative, you will find improvements in future realeases. Please drop your feedbacks at kaushik.atul@gmail.com which will greatly help the author to undersatnd your requirements and hence improve user experience </string>
+    <string name="known_issue_one">Funny extra overflow menu icon on larger screens</string>
+    <string name="known_issue_two">Inconsistent messaging received "Network not available" but issue really was IMAP not enabled on gmail account</string>
+    <string name="donation_amount">donation amount (USD)</string>
+    <string name="app_version">Version 1.1.1</string>
+    <string name="i_m_going_to_be_a_hit">I\'m going to be a hit</string>
+    <string name="hit_to_make_it_a_big_hit">hit to make it a big hit</string>
+    <string name="atul_kaushik">Atul Kaushik</string>
+    <string name="author_name">Atul Kaushik</string>
+    <string name="author_designation">Android Enginner</string>
+    
+</resources>

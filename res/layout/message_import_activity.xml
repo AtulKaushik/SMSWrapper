@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smspro"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/span"
+    android:padding="0dip" >
+
+    <RelativeLayout
+        android:id="@+id/import_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/list_bg"
+        android:padding="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="0dp" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#FFFFFF"
+            android:divider="#A4A4A4"
+            android:dividerHeight="1dip"
+            android:drawSelectorOnTop="true"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="true"
+            android:listSelector="@drawable/list_selector"
+            android:scrollbars="none" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

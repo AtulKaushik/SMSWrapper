@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:contentDescription="@string/description"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/about_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/msg_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/about_item_heading"
+            style="@style/subtitle"
+            android:textSize="18sp"
+            android:text="@string/i_m_going_to_be_a_hit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent" />
+
+            <TextView
+                android:layout_below="@id/about_item_heading"
+                android:id="@+id/about_item_desc"
+                style="@style/generalText"
+                android:text="@string/hit_to_make_it_a_big_hit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

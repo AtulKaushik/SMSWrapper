@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+        android:layout_height="25dp"
+            android:background="#dddddd" >
+
+            <!-- First Tab -->
+
+            <LinearLayout
+                android:id="@+id/first_text"
+                android:layout_width="wrap_content"
+        android:layout_height="25dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/text_title"
+                    android:text="About The App" />
+            </LinearLayout>
+
+            <!-- Second Tab -->
+
+            <LinearLayout
+                android:id="@+id/second_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/text_title"
+                    android:text="About The Author" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <!-- Include Tab Indicator -->
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/about_tab_indicator" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

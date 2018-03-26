@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- android:defaultValue="@string/no_address_specified" -->
+    <PreferenceCategory android:title="google account credentials" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="enter mail id (like xyz@gmail.com)"
+            android:inputType="textEmailAddress"
+            android:key="googleAddress"
+            android:summary="@string/google_address_summary"
+            android:title="MAIL ID" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="enter mail password"
+            android:inputType="textPassword"
+            android:key="googlePassword"
+            android:summary="@string/google_password_summary"
+            android:title="MAIL PASSWORD" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Mail import range (keep it small for better performance)" >
+        <ListPreference
+            android:entries="@array/import_ranges"
+            android:entryValues="@array/import_range_values"
+            android:key="importRange"
+            android:defaultValue="5"
+            android:summary="@string/import_range_summary"
+            android:title="IMPORT RANGE" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Remember your account settings" >
+        <CheckBoxPreference
+            android:key="remember"
+            android:title="Remember" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

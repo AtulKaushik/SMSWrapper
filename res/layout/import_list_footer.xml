@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/more_msgs_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/import_list_footer_background"
+        android:textColor="@drawable/button_text_color"/>
+
+</RelativeLayout>

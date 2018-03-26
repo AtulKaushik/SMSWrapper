@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="import_ranges">
+ <item>05 Messages</item>
+ <item>10 Messages</item>
+ <item>15 Messages</item>
+ <item>20 Messages</item>
+ <item>25 Messages</item>
+</string-array>
+<string-array name="import_range_values">
+ <item>05</item>
+ <item>10</item>
+ <item>15</item>
+ <item>20</item>
+ <item>25</item>
+</string-array>
+</resources>
